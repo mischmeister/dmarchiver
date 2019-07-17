@@ -7,10 +7,11 @@ from flask import render_template
 app = Flask(__name__, static_folder=os.path.dirname(os.path.realpath(__file__)) + "/static")
 
 colors = [
-    "#F7464A", "#46BFBD", "#FDB45C", "#FEDCBA",
-    "#ABCDEF", "#DDDDDD", "#ABCABC", "#4169E1",
-    "#C71585", "#FF4500", "#FEDCBA", "#46BFBD"]
-
+	"#FF0029","#377EB8","#66A61E","#984EA2",
+	"#00D2D5","#FF7F00","#AF8D00","#7F80CD",
+	"#B3E900","#C42E60","#A65628","#F781BF",
+	"#8DD3C7","#BEBADA","#FB8072","#80B1D3",
+	"#FDB462","#FCCDE5","#BC80BD","#FFED6F"]
 
 DATABASE="/usr/local/bin/dmarchiver/dmarchiver.sqlite"
 
