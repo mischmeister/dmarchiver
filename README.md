@@ -15,9 +15,6 @@ Requirements
 Features
 
 * Supports IMAP connection with STARTTLS / SSL
-
-Future Releases
-
 * web panel for reporting
 
 
